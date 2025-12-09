@@ -1,6 +1,6 @@
 @echo off
 cd /d "%~dp0"
-
+cd ..
 echo --- Git Global Configuration ---
 set /p "user_name=Enter Git user.name (e.g. John Doe): "
 set /p "user_email=Enter Git user.email (e.g. email@example.com): "

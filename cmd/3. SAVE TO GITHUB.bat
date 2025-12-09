@@ -1,6 +1,6 @@
 @echo off
 cd /d "%~dp0"
-
+cd ..
 echo Target Branch: [main]
 echo.
 
