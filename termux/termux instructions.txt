@@ -1,0 +1,48 @@
+
+after termux-setup-storage
+
+
+can you do one line paste in termux to execute all of this
+
+pkg update && pkg upgrade -y
+pkg install git dos2unix -y
+
+create the following folders needed:  /storage/emulated/0/WORKSPACE TREB/The Brew Cave/termux"
+
+git config --global --add safe.directory "/storage/emulated/0/WORKSPACE TREB/The Brew Cave"
+
+git config --global --add safe.directory "/storage/emulated/0/WORKSPACE TREB/The Brew Cave/termux"
+
+cd "/storage/emulated/0/WORKSPACE TREB/The Brew Cave/termux"
+
+bash config.sh
+(enter your name and email)
+
+
+bash initialize.sh
+(enter ljmacaya2005 & TheBrewCave_By_Elevate)
+
+bash update.sh
+
+git config --global credential.helper store
+
+bash save.sh
+(enter ljmacaya2005 & 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)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
